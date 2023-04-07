@@ -17,15 +17,12 @@ public class TheCase {
     public String getModel() {
         return model;
     }
-
     public String getManufacturer() {
         return manufacturer;
     }
-
     public String getPowerSupply() {
         return powerSupply;
     }
-
     public Dimension getDimension() {
         return dimension;
     }

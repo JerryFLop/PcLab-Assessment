@@ -3,7 +3,7 @@ package pcbuild;
 public class Monitor {
     private Resolution resolution;
     private String modelNumber;
-     private String manufacturerName;
+    private String manufacturerName;
 
 
     public Monitor(Resolution resolution,String modelNumber,String manufacturerName ) {

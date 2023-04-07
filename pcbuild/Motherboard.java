@@ -18,14 +18,9 @@ public class Motherboard {
         this.cardSlots = cardSlots;
         this.bios = bios;
     }
-
-
-
     public void loadProgram(String programName) {
         System.out.println(programName.concat("is now running..."));
     }
-
-
     @Override
     public String toString() {
         return "Motherboard{" +
