@@ -1,5 +1,7 @@
 package pcbuild;
 
+import javax.swing.*;
+
 public class Motherboard {
 
   private   String model;
@@ -18,7 +20,7 @@ public class Motherboard {
     }
 
     private void loadProgram(String programName) {
-
+        System.out.println( "Photoshop is now running...");
     }
 
 }
