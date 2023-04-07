@@ -10,7 +10,6 @@ public class Main {
         Motherboard motherboard = new Motherboard("sony23", "Sony",2,3,"sony-bios");
         Pc pc = new Pc(theCase,motherboard,monitor);
         System.out.println(pc);
-
         pc.powerUp();
     }
 }
