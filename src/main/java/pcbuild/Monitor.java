@@ -11,7 +11,7 @@ public class Monitor {
         this.modelNumber = modelNumber;
         this.manufacturerName = manufacturerName;
     }
-    private void drawPixel(int x, int y, String color) {
+      public void drawPixel(int x, int y, String color) {
         System.out.println("Drawing pixel at " + x + "," + y + " " + " in color " + color);
     }
 

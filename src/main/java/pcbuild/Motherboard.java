@@ -19,8 +19,10 @@ public class Motherboard {
         this.bios = bios;
     }
 
-    private void loadProgram(String programName) {
-        System.out.println( "Photoshop is now running...");
+
+
+    public void loadProgram(String programName) {
+        System.out.println(programName.concat("is now running..."));
     }
 
 }
