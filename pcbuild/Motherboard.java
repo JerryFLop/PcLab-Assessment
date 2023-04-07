@@ -1,6 +1,6 @@
 package pcbuild;
 
-import javax.swing.*;
+
 
 public class Motherboard {
 
