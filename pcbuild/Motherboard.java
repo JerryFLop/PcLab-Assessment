@@ -25,4 +25,15 @@ public class Motherboard {
         System.out.println(programName.concat("is now running..."));
     }
 
+
+    @Override
+    public String toString() {
+        return "Motherboard{" +
+                "model='" + model + '\'' +
+                ", manufacturer='" + manufacturer + '\'' +
+                ", ramSlots=" + ramSlots +
+                ", cardSlots=" + cardSlots +
+                ", bios='" + bios + '\'' +
+                '}';
+    }
 }

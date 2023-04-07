@@ -42,7 +42,8 @@ public class Pc {
 
 
     public void description(){
-        System.out.println("Welcome to worst buy below is the description of the pc on sale today" + this.monitor + this.motherboard);
+        System.out.println("Welcome to worst buy below is the description of the pc on sale today" );
+
     }
 
 public void powerUp(){
@@ -53,13 +54,15 @@ public void powerUp(){
 }
 
 
-
     @Override
     public String toString() {
-        return "Pc{" +
-                "Case=" + thecase +
-                ", motherboard=" + motherboard +
-                ", monitor=" + monitor +
+        description();
+        return  monitor +
+                "\n" + thecase +
+                "\n" + motherboard +
                 '}';
     }
+
+
+
 }

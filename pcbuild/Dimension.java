@@ -12,7 +12,12 @@ public class Dimension {
     }
 
 
-
-
-
+    @Override
+    public String toString() {
+        return "Dimension{" +
+                "width=" + width +
+                ", height=" + height +
+                ", depth=" + depth +
+                '}';
+    }
 }
